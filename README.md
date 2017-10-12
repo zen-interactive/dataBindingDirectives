@@ -1,4 +1,4 @@
-# dataBindingDirectives
+# DataBinding et Directives
 
 Exemples des différents DataBinding et Directives en Angular 2
 
