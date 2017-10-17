@@ -18,7 +18,7 @@ export class HighlightDirective {
 
   private _defaultColor = 'red';
 
-  constructor(private _el: ElementRef, private _renderer: Renderer2) {
+  constructor(private _el: ElementRef, private _renderer: Renderer) {
     this._renderer.setElementStyle(this._el.nativeElement, 'color', this._defaultColor);
   }
 
