@@ -3,7 +3,7 @@
 @HostListener ont été ajoutés pour permettre le changement de couleur.
 
 ElementRef est injecté dans le constructeur par Angular afin de récupérer l'élement du DOM dans notre classe.
-Grace à l'injection de Renderer2, il est possible de modifier le style de l'élement.
+Grace à l'injection de Renderer, il est possible de modifier le style de l'élement.
 
 Appeler cette directive comme ceci : <div appHighlight highlightColor="yellow">Texte en highlight</div>
 */
