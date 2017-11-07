@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
     template: `
-    <div>Personne : {{person}} | Age : {{age}} | Adresse : {{address}}</div>
+    <div>Personne : {{person}} | Age : {{age}} | Adresse : {{address|json}}</div>
 
   `
 })
